@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    l icone du  profil
+    l <!--icone du  profil-->
      <img src="" alt="">
      <!--l Titre du  profil -->
      <h1>PROFIL</h1>
@@ -16,25 +16,31 @@
       <!--l icone du  EXPERIENCES -->
       <img src="" alt="">
       <!--l Titre du  EXPERIENCES -->
-      <h1>EXPERIENCES</h1>
-      <h2>1 an de Stage de Technique  </h2>
+      <p id="EXPERIENCES">EXPERIENCES</p>
+      <p id="StageT">1 an de Stage de Technique</p>
       <!--le paragraphe du  EXPERIENCES -->
-     <p>Dans l’entreprise d’installation électrique de Boubacar Kéïta </p>
-     <h2>2 ans de Stage de pédagogique</h2>
-     <p>Dans l’institut de formation Professionelle (IFP) et dans le centre Abdramane Diarra (CAD). </p>
+     <p id="pStageT">Dans l’entreprise d’installation électrique de Boubacar Kéïta </p>
+     <p id="StageP">2 ans de Stage de pédagogique</p>
+     <p id="pStageP">Dans l’institut de formation Professionelle (IFP) et dans le centre Abdramane Diarra (CAD). </p>
      <!--l Titre du  COMPETENCES -->
-     <h1>COMPETENCES</h1>
-     <P>
-         <span>
-             Aduino
-         </span>
-         <span>Python</span>
-         <span>Circuit Maker</span>
-         <span>NI Multisim</span>
-     </P>
+     <p id="COMPETENCES">COMPETENCES</p>
+     <div>
+        <div id="Aduino">Aduino
+            <div id="niveauAduino1">
+                <div id="niveauAduino1"></div>
+            </div>
+        </div>
+        <div id="Python">Python</div>
+        <div id="CircuitMaker">Circuit Maker</div>
+        <div id="NIMultisim">NI Multisim</div>
+        
+     </div>
+         
+    
 
-      <!--l Titre du  LANGUE -->
-     <h1>LANGUE</h1>
+     <!--*****************A CORIGER****** --> 
+     <!--l Titre du  LANGUE -->
+     <p>LANGUE</p>
      <p>
          <span>Bambara ( maternelle)</span>
          <span>Français ( courant)</span>
