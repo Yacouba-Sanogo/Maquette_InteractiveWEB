@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    l icone du  profil
+     <img src="" alt="">
+     <!--l Titre du  profil -->
+     <h1>PROFIL</h1>
+     <!--le paragraphe du  profil -->
+     <p>Etudiant finaliste en Master Electronique avec une experince en enseignement, je combine expertise technique et engagement personnel. Guidé par mes valeur, je mets en avant rigueur et intégrité dans chaque  </p>
+
+      <!--l icone du  EXPERIENCES -->
+      <img src="" alt="">
+      <!--l Titre du  EXPERIENCES -->
+      <h1>EXPERIENCES</h1>
+      <h2>1 an de Stage de Technique  </h2>
+      <!--le paragraphe du  EXPERIENCES -->
+     <p>Dans l’entreprise d’installation électrique de Boubacar Kéïta </p>
+     <h2>2 ans de Stage de pédagogique</h2>
+     <p>Dans l’institut de formation Professionelle (IFP) et dans le centre Abdramane Diarra (CAD). </p>
+     <!--l Titre du  COMPETENCES -->
+     <h1>COMPETENCES</h1>
+     <P>
+         <span>
+             Aduino
+         </span>
+         <span>Python</span>
+         <span>Circuit Maker</span>
+         <span>NI Multisim</span>
+     </P>
+
+      <!--l Titre du  LANGUE -->
+     <h1>LANGUE</h1>
+     <p>
+         <span>Bambara ( maternelle)</span>
+         <span>Français ( courant)</span>
+         <span>Anglais  ( basic)</span>
+     </p>
+
+     <!--l Titre du  LOISIRS -->
+     <h1>LOISIRS </h1>
+     <p>
+         <span>Lecture ( développement personnel)</span>
+         <span>Sport ( volleyball )</span>
+         <span>Voyage</span>
+     </p>
+</body>
+</html>
