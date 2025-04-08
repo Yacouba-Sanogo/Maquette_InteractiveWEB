@@ -50,10 +50,12 @@ body{
     height: 30%;
     margin-top: 40% ;
 }
+#div5 i{
+    color: black;
+}
 #divplanDroit{
- 
     border: 1px solid black;
-    width: 60%;
+    width: 55%;
     height: 100%;
     margin-left: 40%;
     margin-top: -141.5%;
@@ -248,18 +250,39 @@ body{
 
 }
 #pProfil{
-font-size: 60%;
+    font-weight: normal;
+    font-size: 60%;
 }
 /* le text de  l'experience et son image*/
+
 #EXPERIENCES{
     margin-top: 2%;
-    margin-left: 25%;
+   margin-left: 33px;
+    display: flex
+;
+    align-items: center;
    
+}
+.icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+ i{
+font-size: 20px;
+color: white;
 }
 #StageT{
     font-size: 65%;
 }
 #pStageT{
+    font-weight: normal;
     margin-top: -2%;
     font-size: 60%;
 }
@@ -268,46 +291,164 @@ font-size: 60%;
     font-size: 65%;
 }
 #pStageP{
+    font-weight: normal;
     margin-top: -2%;
     font-size: 60%;
 }
 /* Titre du  COMPETENCES */
 #COMPETENCES{
     margin-left: 25%;
+    margin-top: -8%;
+    height: 5%;
+    display: flex;
+    
 }
-#Aduino{
+#iCOMPETENCES{ position: relative;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 11%;
+    height: 4%;
+    border-radius: 50%;
+    background-color: black;
+}
+#iCOMP{
+    margin-top: 15%;
+    margin-left: 10%;
+    font-size: 152%;
+
+    
+}
+#divCOMPETENCE{
+}
+#Aduino{position: relative;
+    display: flex;
+    justify-content: space-between;
 
     font-size: 65%;
 }
-#niveauAduino1{
-    width: 70%;
-    height: 5%;
-    background-color: rgb(253, 76, 76);
+
+#niveauAduino1{ position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    left: 30%;;
+    top: 30%;
+    border-radius:10px  ;
 
 }
 #niveauAduino2{
-    
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    background-color: rgb(230, 216, 216);
+    left: 29%;;
+    top: 30%;
+    border-radius:10px ;
 
 }
-#Python{
+#Python{ position: relative;
+    display: flex;
+    justify-content: space-between;
     font-size: 65%;
 
 }
 #niveauPython1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    left: 30%;;
+    top: 30%;
+    border-radius:10px  
+    
 
 }
 #niveauPython2{
+    position: absolute;
+    height: 50%;
+    width: 30%;
+    background-color: rgb(230, 216, 216);
+    left: 29%;;
+    top: 30%;
+    border-radius:10px ;
 
 }
 #CircuitMaker{
+    position: relative;
     font-size: 65%;
 }
 #niveauCircuitMaker1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    left: 30%;;
+    top: 30%;
+    border-radius:10px  
 
 }
-#niveauCircuitMaker2{}
+#niveauCircuitMaker2{
+    position: absolute;
+    height: 50%;
+    width: 43%;
+    background-color: rgb(230, 216, 216);
+    left: 29%;;
+    top: 30%;
+    border-radius:10px ;
+}
 #NIMultisim{
+    position: relative;
     font-size: 65%;
 
 }
-#niveauNIMultisim1{}
+#niveauNIMultisim1{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    left: 30%;
+    top: 30%;
+    border-radius:10px  
+}
+#niveauNIMultisim2{
+    position: absolute;
+    height: 50%;
+    width: 33%;
+    background-color: rgb(230, 216, 216);
+    left: 29%;
+    top: 30%;
+    border-radius:10px ;
+
+}
+#LANGUE{
+
+
+}
+#pLANGUE{
+    font-weight: normal;
+    font-size: 65%;
+
+}
+
+#pLOISIR{
+    font-weight: normal;
+    font-size: 65%;
+
+}
+#conteurLANGUE{
+    display: flex;
+    justify-content: space-between;
+}
+#conteurLANGUE i{
+    color: black;
+}
+@media screen and (max-with:375px)
+{
+    body{
+        width:100vw;
+        background-color: white;
+    }
+    #div0{
+            width: 100%;
+    }
+}
